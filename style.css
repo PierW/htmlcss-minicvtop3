@@ -10,6 +10,35 @@ body {
   background-color: #cecece;
 }
 
+h2 {
+  color: darkred;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+img[alt="Profilo"], [alt="copertina"]{
+  width: 150px;
+  border-radius: 20%;
+  margin-top: 5px;
+}
+
+button[name="scopri"]{
+  background-color: darkred;
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+i[class~="fab"]{
+  font-size: 2em;
+  margin: 0 10px;
+}
 /* CLASSI */
 
 .container{
@@ -30,9 +59,11 @@ body {
   float: right;
 }
 .main-back{
+  font-family: 'Raleway', sans-serif;
   background-color: white;
   border-radius: 3%;
   text-align: center;
+  padding: 10px;
 }
 
 .biografia{
@@ -40,7 +71,7 @@ body {
 }
 
 .exp{
-/* iNSERIAMO DOPO I SELETTORI */
+ /* Aggiungere proprietà */
 }
 
 .contact{
